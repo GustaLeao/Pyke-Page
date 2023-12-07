@@ -43,7 +43,7 @@ a {
   justify-content: center;
 }
 
-#video {
+.video {
   width: 50%;
   height: 400px;
 }
