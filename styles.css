@@ -9,7 +9,8 @@ html {
   box-sizing: border-box;
 }
 
-main {
+p {
+  font-size: 1.6rem;
 }
 
 #header {
@@ -37,7 +38,18 @@ a {
   text-decoration: none;
 }
 
+#History {
+  display: flex;
+  justify-content: center;
+}
+
+#video {
+  width: 50%;
+  height: 400px;
+}
+
 #form {
+  
 }
 
 .label-form {
