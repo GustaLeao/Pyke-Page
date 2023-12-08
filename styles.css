@@ -49,10 +49,35 @@ a {
 .video {
   width: 50%;
   height: 400px;
+  margin: 50px 0;
+}
+
+#text_history {
+  width: 70%;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+}
+
+#name_pyke {
+  font-size: 2.8rem;
+  display: inline;
+}
+
+#name_pyke,
+.paragraph_history.first {
+  grid-column: 1;
+}
+.paragraph_history.first::first-letter {
+  color: red;
+}
+
+.paragraph_history.second {
+  grid-column: 2;
 }
 
 #form {
-  
 }
 
 .label-form {
