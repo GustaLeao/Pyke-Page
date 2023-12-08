@@ -56,8 +56,12 @@ a {
   width: 70%;
   position: relative;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
+}
+
+#first_paragraph{
+  display: flex;
 }
 
 #name_pyke {
