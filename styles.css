@@ -9,6 +9,10 @@ html {
   box-sizing: border-box;
 }
 
+main {
+  margin-top: 120px;
+}
+
 p {
   font-size: 1.8rem;
 }
@@ -20,6 +24,10 @@ p {
   background-color: antiquewhite;
   align-items: center;
   padding: 0 30px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
 }
 
 #header-img {
@@ -38,6 +46,15 @@ a {
   text-decoration: none;
 }
 
+#title_History{
+  font-size: 4.0rem;
+  margin:1rem 0;
+}
+
+section{
+  margin-bottom: 5rem;
+}
+
 #History {
   display: flex;
   align-items: center;
@@ -49,17 +66,12 @@ a {
 .video {
   width: 50%;
   height: 400px;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 #text_history {
-  width: 70%;
+  margin: 0 3rem;
   position: relative;
-}
-
-#first_paragraph{
-  display: flex;
-  grid-column: 1/-1;
 }
 
 .paragraph_history.first::first-letter {
@@ -67,11 +79,21 @@ a {
   font-size: 3.2rem;
 }
 
+p.paragraph_history.first {
+  margin-bottom: 1.8rem;
+  line-height: 125%;
+}
+
+p.paragraph_history.second {
+  line-height: 125%;
+}
+
 section#Habilities {
     align-items: center;
     justify-content: flex-end;
     display: flex;
     flex-direction: column;
+    margin: 0 3rem;
 }
 
 #text_habilities{
@@ -84,8 +106,24 @@ section#Habilities {
   font-size: 4.0rem;
 }
 
-.subtitle_pa
+.subtitle_habilities{
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
 
+.paragraph_habilities{
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+
+section#Popularity {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem;
+}
 #form {
 }
 
