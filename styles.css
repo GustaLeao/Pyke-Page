@@ -81,6 +81,13 @@ a {
   grid-column: 2;
 }
 
+section#Habilities {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
 #form {
 }
 
