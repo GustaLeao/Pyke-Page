@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
 }
+
 *,
 *::before,
 *::after {
@@ -10,7 +11,7 @@ html {
 }
 
 main {
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 p {
@@ -46,32 +47,35 @@ a {
   text-decoration: none;
 }
 
-#title_History{
-  font-size: 4.0rem;
-  margin:1rem 0;
+#title_History,
+#title_Habilities,
+#title_Popularity,
+#title_Questions {
+  font-size: 4rem;
+  margin: 3rem 0;
 }
 
-section{
-  margin-bottom: 5rem;
+section#History,
+section#Popularity,
+section#Habilities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 3rem 3rem 3rem;
 }
 
 #History {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
   flex-direction: column;
 }
 
 .video {
   width: 50%;
   height: 400px;
-  margin: 30px 0;
-}
-
-#text_history {
-  margin: 0 3rem;
-  position: relative;
+  margin: 0;
 }
 
 .paragraph_history.first::first-letter {
@@ -88,49 +92,70 @@ p.paragraph_history.second {
   line-height: 125%;
 }
 
-section#Habilities {
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: column;
-    margin: 0 3rem;
-}
-
-#text_habilities{
+#text_habilities {
   display: flex;
   flex-direction: column;
 }
 
-.title_section{
+.title_section {
   margin: auto;
-  font-size: 4.0rem;
+  font-size: 4rem;
 }
 
-.subtitle_habilities{
+.subtitle_habilities {
   font-size: 3.2rem;
   margin-bottom: 1rem;
 }
 
-.paragraph_habilities{
+.paragraph_habilities {
   margin-bottom: 1rem;
   margin-left: 2rem;
 }
 
-
-section#Popularity {
-  align-items: center;
-  justify-content: flex-end;
+section#Questions {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  margin: 0 3rem;
+  margin: 0 3rem 5rem 3rem;
+}
+
+#title_Questions {
+  text-align: center;
 }
 #form {
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
 }
 
 .label-form {
+  display: block;
+  font-size: 1.8rem;
+}
+
+input {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 1.8rem;
+}
+
+input#request {
+  display: inline;
 }
 
 .label-form.fieldset-label {
+  display: block;
+}
+
+input#submit {
+  margin-top: 1.5rem;
 }
 
 @media (max-width: 610px) {
