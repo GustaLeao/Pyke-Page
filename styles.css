@@ -33,7 +33,6 @@ p {
 
 #header-img {
   width: 50px;
-  margin: auto;
 }
 
 #nav-bar {
@@ -158,19 +157,54 @@ input#submit {
   margin-top: 1.5rem;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 1170px) {
   #nav-bar {
+    gap:90px;
   }
 }
-@media (max-width: 610px) {
+@media (max-width: 1120px) {
   #nav-bar {
+    gap:80px;
   }
 }
-@media (max-width: 610px) {
+@media (max-width: 1060px) {
   #nav-bar {
+    gap:70px;
   }
 }
-@media (max-width: 610px) {
+@media (max-width: 1020px) {
   #nav-bar {
+    gap:60px;
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 950px) {
+  #nav-bar {
+    gap:50px;
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 890px) {
+  #nav-bar {
+    gap: 45px;
+    font-size: 2.0rem;
+  }
+}
+@media (max-width: 790px) {
+  #nav-bar {
+    gap: 40px;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 755px) {
+  #nav-bar {
+    gap: 30px;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 670px) {
+  #nav-bar {
+    gap: 45px;
+    font-size: 2.0rem;
   }
 }
